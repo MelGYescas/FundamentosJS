@@ -29,5 +29,22 @@ imprim(person)
 function impri (name){
     console.log(name.toUpperCase());
 }
-
 impri(person.name);
+
+function imprim (person){
+    var {name} = person;
+    console.log(name.toUpperCase())
+}
+
+imprim(person);
+var person ={
+    name : 'Mel',
+    age : 22,
+    last : 'yesi'
+}
+
+function NameAge(person){
+    console.log(`Hola soy ${person.name} y tengo ${person.age} años`);
+}
+
+NameAge(person);
