@@ -48,3 +48,20 @@ function NameAge(person){
 }
 
 NameAge(person);
+
+//cambiando age
+function cumpleanos(person){
+    console.log(person.age);
+    person.age += 1;
+    console.log(person.age);
+}
+
+cumpleanos(person);
+
+function cumpl (person){
+    return {
+        ...person,
+        age : person.age + 1
+    }
+
+}
